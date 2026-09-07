@@ -47,12 +47,12 @@ $logoBrandLargeAlt = !empty($this->params->get('emptyLogoBrandLargeAlt'))
     ? ''
     : ($this->params->get('logoBrandLargeAlt')
         ? htmlspecialchars($this->params->get('logoBrandLargeAlt'), ENT_COMPAT, 'UTF-8')
-        : Text::_('TPL_ATUM_LOGO_ALT_DEFAULT'));
+        : Text::_('Joomla'));
 $logoBrandSmallAlt = !empty($this->params->get('emptyLogoBrandSmallAlt'))
     ? ''
     : ($this->params->get('logoBrandSmallAlt')
         ? htmlspecialchars($this->params->get('logoBrandSmallAlt'), ENT_COMPAT, 'UTF-8')
-        : Text::_('TPL_ATUM_LOGO_ALT_DEFAULT'));
+        : Text::_('Joomla'));
 
     // Get the hue value
     preg_match('#^hsla?\(([0-9]+)[\D]+([0-9]+)[\D]+([0-9]+)[\D]+([0-9](?:.\d+)?)?\)$#i', $this->params->get('hue', 'hsl(214, 63%, 20%)'), $matches);
