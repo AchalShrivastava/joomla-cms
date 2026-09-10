@@ -248,9 +248,9 @@ label {
 .com_login .sidebar-wrapper .main-brand a,
 .com_login .sidebar-wrapper #sidebar,
 .com_login .sidebar-wrapper #sidebar a {
+  display: inline-block;
+  line-height: 24px;
   color: var(--template-text-light);
-   line-height: 24px;
-     display: inline-block;
 }
 
 .view-login {
